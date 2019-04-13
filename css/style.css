@@ -1,0 +1,24 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+.main{
+    
+}
+p{
+    padding:10%;
+}
+ul{
+    :none;
+}
+.padding10{padding:10px;}
+.jumbo{
+    /* padding-left:18%;
+    padding-top:5%;
+    color: rgb(255,165,0); */
+    background-image: url("img/Recipes.jpg"),url("img/coffee.jpg"); 
+    height: 400px;
+    }
+.heading{padding-left:25%; color:rgb(255,165,0); font-size: 80px;}
+.quote{padding-left: 18%;font-size:20px;}
+
+.imcol{height:100px; width:100px;}
