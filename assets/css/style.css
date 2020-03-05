@@ -7,9 +7,9 @@ body {
 p{
     padding:10%;
 }
-ul{
-    :none;
-}
+/* ul{
+    display:none;
+} */
 .padding10{padding:10px;}
 .jumbo{
     /* padding-left:18%;
