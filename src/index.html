@@ -21,17 +21,19 @@
 
     <div id="header"></div>
 
-    <div class="container-fluid" id="main-contain"> </div>
-    <div class="row">
-        <div class="col-sm-4">
-            <ul style="border:1 px solid; background-color:white;">
-                <li> <input type="button" class="btn btn-primary" value="login" onclick="openlogin()"> </li>
-                <li> <input type="button" class="btn btn-success" value="contact" onclick="opencontact()"> </li>
+    <!-- <div class="container-fluid" id="main-contain"> </div> -->
+    <div class="row"> 
+        <div class="col-sm-2">
+            <ul class="card sidenav" >
+                <li > <input type="button" class="btn btn-primary" value="Login &nbsp; &nbsp; &nbsp; &nbsp;" onclick="openlogin()"> </li>
+                <li> <input type="button" class="btn btn-success" value="contact &nbsp;" onclick="opencontact()"> </li>
                 <li> <input type="button" class="btn btn-info" value="register" onclick="openregister()"> </li>
-                <li> <input type="button" class="btn btn-danger" value="gallery" onclick="opengallery()"> </li>
+                <li> <input type="button" class="btn btn-danger" value="gallery &nbsp;" onclick="opengallery()"> </li>
+                <li> <input type="button" class="btn btn-secondary" value="Calculator &nbsp;" onclick="opencalcy()"> </li>
+                <li> <input type="button" class="btn btn-warning" value="gallery &nbsp;" onclick="opengallery()"> </li>
             </ul>
         </div>
-        <div class="col-sm-8">
+        <div class="card col-sm-10">
             <div id="content"></div>
         </div>
     </div>
@@ -56,6 +58,8 @@
     <script src="./gallery.js"></script>
     <script src="./contact.js"></script>
     <script src="./login.js"></script>
+    <script src="./register.js"></script>
+    <script src="./calculator.js"></script>
 </body>
 
 </html>

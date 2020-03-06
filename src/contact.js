@@ -1,5 +1,5 @@
 function opencontact(){
-    $('#main-contain').empty().append('\
+    $('#content').empty().append('\
     <diiv class="container">\
         <div class="row card">\
             h1>CONTACT DETAILS</h1>\

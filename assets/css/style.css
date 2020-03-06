@@ -22,3 +22,21 @@ p{
 .quote{padding-left: 18%;font-size:20px;}
 
 .imcol{height:100px; width:100px;}
+
+.sidenav{
+    background-color:peru; 
+    list-style: none;
+    height: 100%;
+}
+.sidenav{
+    margin-left: -20% !important;
+}
+.sidenav .btn{
+    width: 100% !important;
+}
+#content{
+    margin-top: 3%;
+}
+.card .row{
+    display: inline-block;
+}

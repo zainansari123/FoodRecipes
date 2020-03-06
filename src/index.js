@@ -30,13 +30,25 @@ $( document ).ready(function() {
                     <a class="nav-link" onclick ="opencontact()">ContactUs</a>\
                 </li>\
                 <li class="nav-item">\
-                    <a class="nav-link" href="about.html">AboutUs</a>\
+                    <a class="nav-link" onclick ="openabout()">AboutUs</a>\
                 </li>\
                 <li class="nav-item">\
                     <a class="nav-link" onclick="openlogin()">Login</a>\
                 </li>\
                 <li class="nav-item">\
-                    <a class="nav-link" href="register.html">Register</a>\
+                    <a class="nav-link" onclick ="openregister()">Register</a>\
+                </li>\
+                <li class="nav-item">\
+                <div class="dropdown">\
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown">\
+                        My Recipies\
+                    </a>\
+                    <div class="dropdown-menu">\
+                        <a class="dropdown-item" onclick ="openregister()" href="#">Link 1</a>\
+                        <a class="dropdown-item" href="garden.html">garden</a>\
+                        <a class="dropdown-item" href="#">Link 3</a>\
+                    </div>\
+                    </div>\
                 </li>\
             </ul>\
         </nav> ')
@@ -89,14 +101,14 @@ $('#footer').append('\
 </footer>')
 });
 
-function openlogin(){
-    $('#content').empty().append("<h1>login works</h1>")
-}
+// function openlogin(){
+//     $('#content').empty().append("<h1>login works</h1>")
+// }
 
-function opencontact(){
-    $('#content').empty().append("<h1>contact works</h1>")
-}
+// function opencontact(){
+//     $('#content').empty().append("<h1>contact works</h1>")
+// }
 
-function openregister(){
-    $('#content').empty().append("<h1>register works</h1>")
-}
+// function openregister(){
+//     $('#content').empty().append("<h1>register works</h1>")
+// }
